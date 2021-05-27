@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Webshop, Tørstig, boblende æblecider, saftig og sød, køb nu, Aarhus, Æbletræ, Lokalt, Kvalitet, Specialitet, Aeblecider, Bæredygtigt, undgå madspild." >
+    <meta name="description" content="Vi laver vild cider med æbler, som vi henter i aarhusianske haver. Jeg hedder Sebastian, og det bobler indeni mig." >
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <title>Webshop - kommer snart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Logo & Burgermenu -->
+<header class="navigation__container">
+
+    <!-- Logo -->
+    <a href="forside.html"><img src="img/logoo.png" alt="logo" class="logo"></a>
+<div class="menu-wrap">
+    
+    <!-- Burgermenu -->
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+        <div>
+
+            <!-- Burgermenu-punkter -->
+            <div>
+            <ul>
+                <li> <a href="shop.html">WEBSHOP</a> </li>
+                <li> <a href="produktion.html">PRODUKTION</a> </li>
+                <li> <a href="omos.html">OM OS</a> </li>
+                <li> <a href="kontakt.html">KONTAKT</a> </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+
+    <style>
+
+@media screen and (min-width: 375px) {
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+
+        
+        
+        .bgimg {
+        margin-top: -100px;
+          background-image: url('img/able_baggrund.jpg');
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          position: relative;
+          color: white;
+          font-family: 'Shadows Into Light', cursive;
+          font-size: 25px;
+        }
+        
+        .topleft {
+          position: absolute;
+          top: 0;
+          left: 16px;
+        }
+        
+        .bottomleft {
+          position: absolute;
+          bottom: 0;
+          left: 16px;
+        }
+        
+        .middle {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 300px;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.404);
+          padding: 10px;
+        }
+
+        .snart{
+            font-family: marker felt;
+            font-size: 30px;
+
+        }
+        
+        hr {
+          margin: auto;
+          width: 40%;
+        }}
+
+        @media screen and (min-width: 700px) {
+
+            .middle{
+                width: 500px;
+                padding: 50px;
+            }
+
+            .snart{
+                font-size: 50px;
+            }
+
+            .bgimg{
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+
+.middle{
+    width: 600px;
+    padding: 60px;
+}
+
+.snart{
+    font-size: 60px;
+}
+
+.bgimg{
+    font-size: 55px;
+    margin-top: -120px;
+}
+}
+        </style>
+        <body>
+        
+            <div class="bgimg">
+                <div class="topleft">
+                </div>
+                <div class="middle">
+                  <h1><span class="snart">KOMMER SNART</span></h1>
+                  <hr>
+                  <p id="demo" style="font-size:30px"></p>
+                </div>
+                <div class="bottomleft">
+                </div>
+              </div>
+        
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var countdownfunction = setInterval(function() {
+        
+          // Get todays date and time
+          var now = new Date().getTime();
+          
+          // Find the distance between now an the count down date
+          var distance = countDownDate - now;
+          
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+          
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(countdownfunction);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+    
+
+<!-- Footer -->
+<footer class="page_footer">
+    <div class="footer_card">
+
+        <!-- Sociale medier -->
+        <h4 class="footer_card_heading">FIND OS PÅ</h4>
+        <a href="https://www.facebook.com/aeblefald"><img src="img/facebook.png" alt="facebook logo" class="some_image"></a>
+        <a href="https://www.instagram.com/aeblefald/"><img src="img/instagram.png" alt="instagram" class="some_image"></a><br><br><br>
+    </div>
+
+
+<!-- Kontakt -->
+    <div class="footer_card">
+        <h4 class="footer_card_heading">ÆBLEFALD</h4>
+        <address class="footer_link">
+            Telf. nr. 28 20 20 20<br>
+          INFO@AEBLEFALD.DK<br>
+          8000 AARHUS <br>
+            
+
+        </address>
+        <br>
+
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>

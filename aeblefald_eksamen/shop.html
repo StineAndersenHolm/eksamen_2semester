@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Webshop, Tørstig, boblende æblecider, saftig og sød, køb nu, Aarhus, Æbletræ, Lokalt, Kvalitet, Specialitet, Aeblecider, Bæredygtigt, undgå madspild." >
+    <meta name="description" content="Vi laver vild cider med æbler, som vi henter i aarhusianske haver. Jeg hedder Sebastian, og det bobler indeni mig." >
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <title>Webshop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- Logo & Burgermenu -->
+<header class="navigation__container">
+
+    <!-- Logo -->
+    <a href="forside.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+<div class="menu-wrap">
+    
+    <!-- Burgermenu -->
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+        <div>
+
+            <!-- Burgermenu-punkter -->
+            <div>
+            <ul>
+                <li> <a href="shop.html">WEBSHOP</a> </li>
+                <li> <a href="produktion.html">PRODUKTION</a> </li>
+                <li> <a href="omos.html">OM OS</a> </li>
+                <li> <a href="kontakt.html">KONTAKT</a> </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+
+    <!-- Overskrift med grøn baggrund -->
+    <div class="overskrift_section">
+    <h1 class="overskrift_side">CIDER-TØRSTIG?</h1>
+    <h2 class="under_overskrift">Det forstår vi godt! Bestil din flaske her på siden..</h2>
+
+    <!-- Pil ned -->
+    <div id="section05" class="demo">
+        <a href="#section06"><span></span></a>
+    </div>
+    </div>
+
+    <!-- Billede af grøn baggrund -->
+
+    <div class="baggrund_mobil2">
+
+        <img class="baggrund_mobil" src="img/baggrund2.png" alt="Grøn baggrund">
+
+    </div>
+
+
+    <!-- Pris section -->
+    <div class="grid-container">
+
+        <!-- Celle 1 - Sund flugt section -->
+        <div class="celle1">
+            <img src="img/billede1.jpg" alt="æblecider" class="billede1"> 
+            <div class="overlay"></div>
+            <h2 class="overskrift">Sund flugt</h2> 
+            <p class="tekst1">Lækker boblende æblecider, frisk og frejdig til en god sommerdag</p>
+            <h3 class="pris">150 kr.</h3>
+            <a href="underside.html" class="knap"> KØB NU</a>
+        </div>
+
+        <!-- Celle 2 - Fald op section -->
+        <div class="celle2">
+            <img src="img/billede2.jpg" alt="æblecider" class="billede1">
+            <h2 class="overskrift">Fald op</h2> 
+            <p class="tekst1">Lækker saftig og sød æblecider. Perfekt bare at nyde for sig selv.</p>
+            <h3 class="pris">150 kr.</h3>
+            <a href="underside.html" class="knap"> KØB NU</a>
+        </div>
+
+      </div>
+
+      <!-- Citat section -->
+      <p class="tekst2">"Vi producerer bæredygtigtigt og der er derfor kun de flasker der er. Når der er udsolgt må du væbne dig med tålmodighed og vente på næste års lækre cider."</p>
+      <p class="tekst3">- Sebastian og Mikkel</p>
+
+<!-- Footer -->
+<footer class="page_footer">
+    <div class="footer_card">
+
+        <!-- Sociale medier -->
+        <h4 class="footer_card_heading">FIND OS PÅ</h4>
+        <a href="https://www.facebook.com/aeblefald"><img src="img/facebook.png" alt="facebook logo" class="some_image"></a>
+        <a href="https://www.instagram.com/aeblefald/"><img src="img/instagram.png" alt="instagram" class="some_image"></a><br><br><br>
+    </div>
+
+
+<!-- Kontakt -->
+    <div class="footer_card">
+        <h4 class="footer_card_heading">ÆBLEFALD</h4>
+        <address class="footer_link">
+            Telf. nr. 28 20 20 20<br>
+          INFO@AEBLEFALD.DK<br>
+          8000 AARHUS <br>
+            
+
+        </address>
+        <br>
+
+    </div>
+
+
+
+</footer>
+
+
+      <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+
+      <script>
+        $(document).ready(function(){
+           $(window).scroll(function(){
+               $('.overskrift_section').css("opacity", 1- $(window).scrollTop() / 300)
+               $('.baggrund').css("opacity", 1- $(window).scrollTop() / 400)
+               $('.celle1').css("opacity", 1* $(window).scrollTop() / 300)
+               $('.celle2').css("opacity", 1* $(window).scrollTop() / 500)
+           })
+       })
+
+    
+   </script>
+</body>
+</html>

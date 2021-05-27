@@ -1,0 +1,2197 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media (min-width: 375px){
+
+
+/* logo to the left */
+.logo {
+  position: absolute;
+  top: 10px;
+  margin-left: 0px;
+  left: 15px;
+  width: 18%;
+  margin-top: 5px;
+  
+}
+
+
+
+.big-title{
+  position: absolute;
+  z-index: 0;
+  line-height: 3rem;
+  top: calc(58% - 12.5rem);
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: marker felt;
+  color: orange;
+}
+
+.big-title2{
+  font-size: 1.3rem;
+  margin-top: -10px;
+  color: black;
+  font-family: 'Caveat', cursive;
+}
+
+.big-title3{
+  line-height: 0rem;
+  margin-top: -40px;
+  font-size: 1.3rem;
+  color: black;
+  font-family: marker felt;
+}
+
+section{
+  width: 100%;
+  position: relative;
+}
+section .container{
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+section .fact-container{
+  background-color: rgba(228, 224, 218, 0.062);
+  min-height: 10vh;
+}
+
+
+.animated-text {
+  color: black; 
+  position:absolute; 
+margin-top: -200px;
+font-size: 12px;
+text-align:center;
+z-index: 30;
+line-height: 18px;
+margin-right: 40px;
+margin-left: 40px;
+}
+
+.tyk_cider{
+  font-weight: bold;
+}
+
+.scroll{
+  color: black; 
+  position:absolute;
+  z-index: 30;
+text-align: center;
+font-family: marker felt;
+font-size: 12px;
+  padding-left: 70px; 
+margin-top: -90px;
+text-align: center;
+font-weight: bold;
+color: rgb(47, 95, 38);
+}
+
+
+.pil{
+height: 70px;
+margin-top: -13px;
+margin-right: -270px;
+}
+
+.seb{
+  position: relative;
+ width: 100%;
+ margin-top: -130px;
+
+}
+
+.tekstbillede{
+  color:black;
+  position:absolute; 
+  margin-top: -20px;
+font-size: 11px;
+line-height: 15px;
+text-align:center;
+margin-left: 15px;
+padding: 35px;
+width: 90%;
+font-family: avenir next;
+}
+
+.tyk_tegn{
+  font-size: 20px;
+  font-weight: 200px;
+  font-family: avenir next;
+}
+
+.tekstunder2{
+color:rgb(253, 135, 0);
+position:absolute; 
+margin-left: 62px;
+font-size: 18px;
+margin-top: 105px;
+font-family: marker felt;
+}
+
+.haveejer{
+  width: 50%;
+  margin-left: -15px;
+  margin-top: 160px;
+
+}
+
+.havetekst{
+  font-family: 'Shadows Into Light Two', cursive;
+  margin-top: -220px;
+font-size: 20px;
+color:rgb(253, 135, 0);
+margin-left: 205px;
+}
+
+.tyk_cider{
+  font-family: marker felt;
+}
+
+.teksthave{
+  line-height: 15px;
+font-size: 10px;
+margin-top: 15px;
+text-align: center;
+margin-left: 161px;
+margin-right: 19px;
+line-height: 14px;
+}
+
+.teksthave2{
+  font-size: 10px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 15px;
+  line-height: 14px;
+  }
+
+  .teksthave3{
+    font-size: 12px;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 55px;
+  margin-right: 55px;
+  line-height: 20px;
+  z-index: 1;
+  }
+
+  .baggrund1{
+    width: 85%;
+    opacity: 0.3;
+    z-index: -1;
+    margin-left: 40px;
+    margin-top: -170px;
+  }
+
+  .pil_video{
+   width: 40px;
+   margin-top: -70px;
+  margin-left: 42px;
+  z-index: 1;
+  }
+
+  .video{
+    position: relative;
+    width: 80%;
+    margin-top: -10px;
+  }
+
+  .video_div{
+    text-align: center;
+  }
+
+.infographic{
+  margin-top: -50px;
+ height: 330px;
+  }
+
+.plantage_illu{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -40px;
+  }
+.plantage_img{
+    width: 100%;
+  }
+  .høst{
+    display: none;
+
+  }
+  .og{
+    display: none;
+  }
+  .begyndelse{
+    display: none;
+  }
+
+  .host_tekst{
+    color: orange;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: marker felt;
+  }
+
+  .host_tekst2{
+    color: orange;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: marker felt;
+    margin-bottom: 50px;
+  }
+
+.cider_find{
+  color: rgb(119, 138, 115);
+  font-size: 15px;
+  margin: 20px 100px 0 20px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.pil2{
+  margin-left: 30px;
+  height: 70px; 
+  margin-left: 290px;
+  margin-top: -60px;
+  margin-bottom: 10px;
+    } 
+
+
+section .container > *{
+  margin: 2rem;
+
+ 
+}
+.content{
+  color:black;
+
+  /* transform: translateY(-50px); */
+}
+
+.text{
+  line-height: 25px;
+  font-size: 18px;
+  margin-top: -100px;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: -119rem;
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+.border{
+  position: absolute;
+  width: 60%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+}
+
+.shadow{
+  background-color:black;
+}
+
+.hvor{
+  font-family: marker felt;
+  font-size: 16px;
+}
+.kort{
+display: none;
+}
+
+.mere_container{
+height: 100px;
+  background-color: rgb(136, 163, 133);
+  padding-left: 120px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light Two', cursive;
+  
+}
+/* Pil ned section */
+#section07 a {
+  padding-top: 70px;
+}
+
+#section07 a span {
+  position: absolute;
+  left: 25%;
+  width: 15px;
+  height: 15px;
+  margin-top: -10px;
+  border-left: 2px solid rgb(5, 5, 5);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.billede_læsmere{
+  width: 100%;
+}
+
+  .container_underside {
+    position: relative;
+    width: 100%;
+  }
+  
+ 
+  .container_underside img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container_underside .btn_omos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    font-size: 16px;
+    padding: 5px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  
+.container_undersider{
+  position: relative;
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  }
+  .container_undersider img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .container_undersider .btn_produktion {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    font-size: 16px;
+    padding: 5px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  .container_undersider .btn_webshop {
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    font-size: 16px;
+    padding: 5px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+  .undersider_desktop{
+    display: none;
+  } 
+ 
+  
+  
+
+
+
+
+
+
+/* kort mobilversion */ 
+
+
+  .container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  
+
+   /* Bardok knap*/ 
+
+/* Style the button and place it in the middle of the container/image */
+.container .mybtn {
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+  }
+
+
+.navi{
+display: block;
+    width: 50px;
+}
+
+
+
+.koort {
+height: 300px;
+    width: 165%;
+    margin-left: -125px;
+    display: block;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color:bisque;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+    display: block;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+  }
+
+
+
+  
+
+
+
+
+ /* Nabo kiosk knap*/ 
+
+
+
+
+
+  /* Style the button and place it in the middle of the container/image */
+.container .mybtn2 {
+  display: block;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+.navi2{
+display: block;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content2 {
+    background-color:bisque;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+    display: block;
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+  }
+
+
+
+
+
+
+  /* Moef knap*/ 
+
+
+  /* Style the button and place it in the middle of the container/image */
+.container .mybtn3 {
+  display: block;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+.navi3{
+display: block;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content3 {
+    display: block;
+    background-color:bisque;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close3 {
+    display: block;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+  /* Bambi knap*/ 
+
+
+  /* Style the button and place it in the middle of the container/image */
+.container .mybtn4 {
+  display: block;
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+.navi4{
+display: block;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content4 {
+    display: block;
+    background-color: bisque;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close4 {
+    display: block;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+  .nabo{
+z-index: 30;
+    width: 50px;
+  }
+
+
+
+  /*------ Footer section-----*/
+
+.page_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 15rem;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(164, 184, 144, 0.603);
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.footer_card{
+  padding: 10px;
+}
+
+.some_image {
+  width: 30px;
+  
+}
+
+.footer_card_heading {
+  margin-bottom: 5px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.footer_card:first-child .footer_card_heading {
+  margin-bottom: 5px;
+
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+}
+/* --- mobile view "forside" end --- */
+
+}
+
+
+
+   
+   /*--- ipad view "forside" start ---*/
+   @media (min-width: 700px){
+     
+     /*------ Header and navigation -----*/
+   
+   
+     .logo{
+       width: 10%;
+       margin-top: 25px;
+       margin-left: 25px;
+     }
+   
+   /*------ Forside - titel -----*/
+     .big-title{
+       top: calc(30% - 12.5rem);
+       text-align: center;
+       font-size: 3.6rem;
+       margin-top: 240px;
+     }
+     
+     .big-title2{
+       font-size: 2rem;
+       margin-top: 10px;
+       color: black;
+       font-family: 'Caveat', cursive;
+     }
+     
+     .big-title3{
+       margin-top: -30px;
+       font-size: 2rem;
+       color: black;
+       font-family: 'Permanent Marker', cursive;
+     }
+
+      /*------ Forside - titel - Slut -----*/
+   
+     .animated-text {
+       width: 420px;
+       left: 17%;
+       text-align: center;
+      position: relative;
+     font-size: 20px;
+     line-height: 25px;
+     margin-top: -420px;
+     }
+     
+     .scroll{
+     color: black; 
+     position: relative;
+     z-index: 30;
+     left: 0%;
+     text-align: center;
+     padding: 0 40px; 
+     margin-top: 40px;
+     font-size: 22px;
+     line-height: 40px;
+     color: rgb(119, 138, 115);
+     margin-bottom: 5px;
+     }
+     
+   .pil{
+     height: 120px;
+     margin-left: 250px;
+     margin-top: -25px;
+     margin-bottom: 5px;
+   }
+   .billede_txt{
+     position: relative;
+   }
+   .drenge{
+     position: relative;
+     width: 100%;
+     margin-top: -320px;
+   }
+   .seb{
+     width: 100%;
+     height: 100%;
+     margin-top: 300px;
+   }
+   
+     .tekstbillede{
+       position: absolute;
+       color: white;
+       top: 41%;
+       left: 50%;
+       width: 350px;
+     font-size: 15px;
+     line-height: 18px;
+     text-align:center;
+     }
+     
+     .tekstunder2{
+     color: white;
+     position:absolute; 
+     top: 73%;
+     left: 19%;
+     font-size: 25px;
+     }
+   
+     /* Pil ned section */
+   #section08 a {
+     padding-top: 70px;
+   }
+   
+   #section08 a span {
+     position: absolute;
+     left: 50%;
+     width: 15px;
+     height: 15px;
+     margin-top: -70px;
+     border-left: 2px solid white;
+     border-bottom: 2px solid white;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-animation: sdb05 2.5s infinite;
+     animation: sdb05 2.5s infinite;
+     box-sizing: border-box;
+   }
+   
+   @-webkit-keyframes sdb05 {
+     0% {
+       -webkit-transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+   @keyframes sdb05 {
+     0% {
+       transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     } 
+   }
+
+  
+     .haveejer{
+       width: 50%;
+       margin-left: -25px;
+       margin-top: 20px;
+     }
+   
+     .havetekst{
+       margin-top: -400px;
+     font-size: 30px;
+     margin-left: 460px;
+     }
+     
+     .teksthave{
+     width: 360px;
+     font-size: 17px;
+     line-height: 20px;
+     margin-top: 15px;
+     margin-left: 370px;
+     }
+     
+     .teksthave2{
+       width: 360px;
+       font-size: 17px;
+       line-height: 20px;
+       margin-top: 40px;
+       margin-left: 360px;
+       }
+   
+       .teksthave3{
+         text-align: center;
+         font-size: 18px;
+         width: 340px;
+         margin-top: 190px;
+         margin-left: 25px;
+         padding: 15px;
+         }
+       .pil_video{
+         display: block;
+         width: 65px;
+         margin-left: 200px;
+         transform: rotate(-30deg);
+         margin-top: 0px;
+       }
+
+       .baggrund1{
+         width: 45%;
+         margin-top: -200px;
+         margin-left: 25px;
+       }
+
+       .baggrund11{
+         margin-top: -38px;
+       }
+   
+       .video{
+         width: 47%;
+         margin-left: 370px;
+         margin-top: -370px;
+         z-index: -999;
+       }
+
+       .host_tekst{
+         display: none;
+       }
+
+       .host_tekst2{
+         display: none;
+       }
+   
+     .plantage_illu{
+       width: 100%;
+       margin-top: 100px;
+       font-family: 'Shadows Into Light Two', cursive;
+     }
+     .plantage_img{
+       position: relative;
+       width: 100%;
+       margin-left: -100px;
+     }
+     .høst{
+       display: block;
+       position: absolute;
+       font-family: marker felt;
+       color: orange;
+       top: 260%;
+     left: 80%;
+     width: 290px;
+     font-size: 35px;
+     transform: translate(-50%, -50%);
+     }
+   
+     .og{
+       display: block;
+       color: orange;
+       font-size: 35px;
+       margin-left: 385px;
+       margin-top: -20px;
+       font-family: marker felt;
+     }
+   
+     .begyndelse{
+       display: block;
+       color: orange;
+       font-size: 35px;
+       margin-top: 0px;
+       text-align: center;
+       font-family: marker felt;
+       margin-left: 90px;
+     }
+     
+       .infographic{
+   margin-top: 10px;
+    width: 100%;
+    height: 100%;
+       }
+       .cider_find{
+         color: rgb(160, 177, 121);
+         font-size: 25px;
+         margin: auto;
+         font-family: 'Shadows Into Light Two', cursive;
+         padding: 50px 140px 50px 60px;
+       }
+       .pil2{
+         height: 120px; 
+         margin: auto;
+         padding-left: 620px;
+         margin-top: -100px;
+         margin-bottom: 10px;
+           } 
+       .hvor{
+         font-size: 30px;
+         padding-right: 4px;
+       }
+   
+     .mere_container{
+       height: 120px;
+         background-color: rgb(136, 163, 133);
+         padding-left: 0px;
+         padding-top: 40px;
+         text-align: center;
+         align-items: center;
+         font-size: 20px;
+       }
+   
+       .billede_læsmere{
+         width: 100%;
+       }
+       /* Pil ned section */
+   #section07 a {
+     padding-top: -70px;
+     align-items: center;
+   }
+   
+   #section07 a span {
+     position: absolute;
+     margin-left: 190px;
+     width: 15px;
+     height: 15px;
+     margin-top: -7px;
+     border-left: 2px solid rgb(5, 5, 5);
+     border-bottom: 2px solid rgb(0, 0, 0);
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-animation: sdb05 1.5s infinite;
+     animation: sdb05 1.5s infinite;
+     box-sizing: border-box;
+   }
+   @-webkit-keyframes sdb05 {
+     0% {
+       -webkit-transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+   @keyframes sdb05 {
+     0% {
+       transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+   .undersider_desktop{
+     position: relative;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+   } 
+   .container_underside {
+     display: none;
+   }
+   
+   
+   .undersider_desktop img {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .undersider_desktop .btn_omos {
+     position: absolute;
+     text-decoration: none;
+     top: 50%;
+     left: 16%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 16px;
+     padding: 5px 16px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+   }
+   
+   .container_undersider{
+   display: none;
+   }
+   
+   .undersider_desktop .btn_produktion {
+     position: absolute;
+     text-decoration: none;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 16px;
+     padding: 5px 16px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+   }
+   .undersider_desktop .btn_webshop {
+     position: absolute;
+     text-decoration: none;
+     top: 50%;
+     left: 85%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 16px;
+     padding: 5px 16px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+   }
+   
+   
+   /* kort mobilversion */ 
+   
+   
+   .container {
+     position: relative;
+     width: 100%;
+     display: block;
+   }
+   
+   
+    /* Bardok knap*/ 
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn {
+     position: absolute;
+     top: 57%;
+     left: 43%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color:transparent;
+     color: white;
+     font-size: 16px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     display: block;
+   }
+   
+   
+   .navi{
+   display: block;
+     width: 50px;
+   }
+   
+   
+   
+   .koort {
+    width: 862px;
+    height: 500px;
+     display: block;
+   }
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   }
+   
+   /* Modal Content */
+   .modal-content {
+     background-color:bisque;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 40%;
+     text-align: center;
+     display: block;
+   }
+   
+   /* The Close Button */
+   .close {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+     display: block;
+   }
+   
+   .close:hover,
+   .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+     display: block;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   /* Nabo kiosk knap*/ 
+   
+   
+   
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn2 {
+   display: block;
+     position: absolute;
+     top: 20%;
+     left: 80%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color:transparent;
+     color: white;
+     font-size: 16px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+   }
+   
+   
+   .navi2{
+   display: block;
+     width: 50px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal2 {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   }
+   
+   /* Modal Content */
+   .modal-content2 {
+     background-color:bisque;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 40%;
+     text-align: center;
+     display: block;
+   }
+   
+   /* The Close Button */
+   .close2 {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+     display: block;
+   }
+   
+   .close2:hover,
+   .close2:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+     display: block;
+   }
+   
+   
+   
+   
+   
+   
+   /* Moef knap*/ 
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn3 {
+   display: block;
+     position: absolute;
+     top: 72%;
+     left: 58%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color:transparent;
+     color: white;
+     font-size: 16px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+   }
+   
+   
+   .navi3{
+   display: block;
+     width: 50px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal3 {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   }
+   
+   /* Modal Content */
+   .modal-content3 {
+     display: block;
+     background-color:bisque;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 40%;
+     text-align: center;
+   }
+   
+   /* The Close Button */
+   .close3 {
+     display: block;
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+   }
+   
+   .close3:hover,
+   .close3:focus {
+     display: block;
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+   }
+   
+   
+   
+   /* Bambi knap*/ 
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn4 {
+   display: block;
+     position: absolute;
+     top: 35%;
+     left: 55%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color:transparent;
+     color: white;
+     font-size: 16px;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+   }
+   
+   
+   .navi4{
+   display: block;
+     width: 50px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal4 {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   }
+   
+   /* Modal Content */
+   .modal-content4 {
+     display: block;
+     background-color: bisque;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 50%;
+     text-align: center;
+   }
+   
+   /* The Close Button */
+   .close4 {
+     display: block;
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+   }
+   
+   .close4:hover,
+   .close4:focus {
+     display: block;
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+   }
+   
+   }
+   
+   /*--- desktop view "forside" start ---*/
+   @media(min-width: 900px){
+     .logo{
+       width:6%;
+     }
+   
+     .big-title{
+       top: calc(-15% - 12.5rem);
+       text-align: center;
+       font-size: 4.6rem;
+       padding-top: 400px;
+     }
+     
+     .big-title2{
+       font-size: 3.6rem;
+       margin-top: 35px;
+       color: black;
+       font-family: 'Caveat', cursive;
+     }
+     
+     .big-title3{
+       margin-top: -5px;
+       font-size: 3rem;
+       color: black;
+       font-family: 'Permanent Marker', cursive;
+     }
+   
+     .animated-text {
+      width: 700px;
+      left: 24%;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: -100px;
+    }
+    
+    .scroll{
+    color: black; 
+    position:absolute;
+    z-index: 30;
+    text-align: center;
+    padding: 10px; 
+    margin-top: 80px;
+    margin-left: 31.5%;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: marker felt;
+    color: rgb(119, 138, 115);
+    }
+    
+  .pil{
+    height: 100px;
+    margin-left: 380px;
+    margin-top: -25px;
+  }
+    
+   .drenge{
+     position: relative;
+     width: 100%;
+   }
+   .seb{
+     height: 100%;
+     margin-top: 435px;
+   }
+   
+     .tekstbillede{
+       color:white;
+       position:absolute; 
+       top: 42%;
+       left: 50%;
+       width: 620px;
+     font-size: 25px;
+     line-height: 30px;
+     text-align:center;
+     }
+     
+     .tyk_tegn{
+       font-size: 35px;
+       font-family: avenir next;
+       font-weight: 500;
+     }
+     .tekstunder2{
+     color: white;
+     position:absolute; 
+     top: 83%;
+     font-size: 30px;
+     margin-left: 250px;
+     }
+   
+     /* Pil ned section */
+   #section08 a {
+     padding-top: 70px;
+   }
+   
+   #section08 a span {
+     position: absolute;
+     left: 50%;
+     width: 30px;
+     height: 30px;
+     margin-top: -90px;
+     border-left: 4px solid white;
+     border-bottom: 4px solid white;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-animation: sdb05 2.5s infinite;
+     animation: sdb05 2.5s infinite;
+     box-sizing: border-box;
+   }
+   
+   @-webkit-keyframes sdb05 {
+     0% {
+       -webkit-transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+   @keyframes sdb05 {
+     0% {
+       transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     } 
+   }
+     .haveejer{
+       width: 40%;
+       margin-left: 150px;
+       margin-top: 20px;
+     }
+   
+     .havetekst{
+       margin-top: -480px;
+     font-size: 35px;
+     margin-left: 760px;
+     }
+     
+     .tyk_cider{
+      font-family: marker felt;
+      font-weight: 1000;
+      font-size: 22px;
+      letter-spacing: 1px;
+     }
+
+     .teksthave{
+     width: 500px;
+     font-weight: 300;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-left: 700px;
+     line-height: 25px;
+     }
+     
+     .teksthave2{
+       width: 400px;
+       font-size: 20px;
+       margin-top: 40px;
+       margin-left: 590px;
+       line-height: 25px;
+       }
+   
+       .teksthave3{
+         text-align: center;
+         font-size: 20px;
+         width: 420px;
+         margin-top: 300px;
+         margin-left: 180px;
+         line-height: 25px;
+         }
+
+         .baggrund1{
+           width: 40%;
+           margin-top: -240px;
+           margin-left: 140px;
+         }
+
+       .pil_video{
+         display: block;
+         width: 85px;
+         margin-left: 350px;
+         transform: rotate(-20deg);
+         margin-top: 10px;
+       }
+
+       .video {
+         width: 35%;
+         margin-top: -500px;
+         margin-left: 650px;
+
+       }
+   
+     .plantage_illu{
+       width: 90%;
+       margin-top: -50px;
+       align-items: center;
+     }
+     .plantage_img{
+       position: relative;
+       width: 100%;
+       margin-left: -100px;
+     }
+     .høst{
+       display: block;
+       position: absolute;
+       color: orange;
+       font-family: marker felt;
+       margin-top: 100px;
+       top: 460%;
+     left: 74%;
+     font-size: 35px;
+     transform: translate(-50%, -50%);
+     }
+
+     .og{
+       display: block;
+       color: orange;
+       font-size: 35px;
+       margin-left: 53%;
+       margin-bottom: -10px;
+       padding-top: 50px;
+       font-family: marker felt;
+     }
+     .begyndelse{
+       display: block;
+       color: orange;
+       font-size: 35px;
+       text-align: center;
+       margin-left: 150px;
+       margin-top: 10px;
+       font-family: marker felt;
+     }
+
+     .billede_infografic{
+       text-align: center;
+     }
+       .infographic{
+   margin-top: 10px;
+    width: 90%;
+    height: 90%;
+       }
+
+       .cider_find{
+         color: rgb(160, 177, 121);
+         font-size: 30px;
+         margin: auto;
+         padding: 50px 300px 50px 150px;
+       }
+       .pil2{
+         height: 150px; 
+         margin-left: 500px;
+         margin-top: -140px;
+         margin-bottom: 10px;
+           } 
+       .hvor{
+         font-size: 30px;
+         padding-right: 4px;
+         font-family: marker felt;
+       }
+     .mere_container{
+       height: 120px;
+         background-color: rgb(136, 163, 133);
+         text-align: center;
+         font-size: 25px;
+         font-family: 'Shadows Into Light Two', cursive;
+       }
+       /* Pil ned section */
+   #section07 a {
+     padding-top: 70px;
+   }
+   
+   #section07 a span {
+     position: absolute;
+     left: 37%;
+     width: 15px;
+     height: 15px;
+     margin-top: -7px;
+     border-left: 2px solid rgb(5, 5, 5);
+     border-bottom: 2px solid rgb(0, 0, 0);
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-animation: sdb05 1.5s infinite;
+     animation: sdb05 1.5s infinite;
+     box-sizing: border-box;
+   }
+   @-webkit-keyframes sdb05 {
+     0% {
+       -webkit-transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+   @keyframes sdb05 {
+     0% {
+       transform: rotate(-45deg) translate(0, 0);
+       opacity: 0;
+     }
+     50% {
+       opacity: 1;
+     }
+     100% {
+       transform: rotate(-45deg) translate(-20px, 20px);
+       opacity: 0;
+     }
+   }
+
+   .billede_læsmere{
+     width: 100%;
+   }
+   .undersider_desktop{
+     position: relative;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+   } 
+   .container_underside {
+     display: none;
+   }
+   
+   
+   .undersider_desktop img {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .undersider_desktop .btn_omos {
+     position: absolute;
+     top: 50%;
+     left: 16%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 22px;
+     padding: 10px 25px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+     font-family: 'Shadows Into Light Two', cursive;
+   }
+   
+   .container_undersider{
+   display: none;
+   }
+   
+   .undersider_desktop .btn_produktion {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 22px;
+     padding: 10px 25px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+     font-family: 'Shadows Into Light Two', cursive;
+   }
+   .undersider_desktop .btn_webshop {
+     position: absolute;
+     top: 50%;
+     left: 85%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     opacity: 0.8;
+     color: black;
+     font-size: 22px;
+     padding: 10px 25px;
+     border: none;
+     cursor: pointer;
+     border-radius: 7px;
+     font-family: 'Shadows Into Light Two', cursive;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* kort mobilversion */ 
+   
+   
+   .container {
+    display: none;
+   }
+   
+   
+    /* Bardok knap*/ 
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn {
+     display: none;
+   }
+   
+   
+   .navi{
+   
+     display: none;
+   }
+   
+   
+   
+   .koort {
+   display: none;
+   }
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal {
+   display: none;
+   }
+   
+   /* Modal Content */
+   .modal-content {
+     display: none;
+   }
+   
+   /* The Close Button */
+   .close {
+    display: none;
+   }
+   
+   .close:hover,
+   .close:focus {
+    display: none;
+   }
+   
+   
+   
+   /* Nabo kiosk knap*/ 
+   
+   
+   
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn2 {
+    display: none;
+   }
+   
+   
+   .navi2{
+   
+     display: none;
+   }
+   
+   
+   
+   /* The Modal (background) */
+   .modal2 {
+     display: none; /* Hidden by default */
+    
+   }
+   
+   /* Modal Content */
+   .modal-content2 {
+     display: none;
+   }
+   
+   /* The Close Button */
+   .close2 {
+     display: none;
+   }
+   
+   .close2:hover,
+   .close2:focus {
+     display: none;
+   }
+   
+   
+   
+   /* Moef knap*/ 
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn3 {
+     display: none;
+   }
+   
+   
+   .navi3{
+   
+     display: none;
+   }
+   
+   
+   
+   
+   /* The Modal (background) */
+   .modal3 {
+     display: none; /* Hidden by default */
+    
+   }
+   
+   /* Modal Content */
+   .modal-content3 {
+   display: none;
+   }
+   
+   /* The Close Button */
+   .close3 {
+     display: none;
+   }
+   
+   .close3:hover,
+   .close3:focus {
+   display: none;
+   }
+   
+   /* Bambi knap*/ 
+   
+   
+   /* Style the button and place it in the middle of the container/image */
+   .container .mybtn4 {
+     display: none;
+   }
+   
+   
+   .navi4{
+   
+    display: none;
+   }
+   
+   
+   /* The Modal (background) */
+   .modal4 {
+     display: none; /* Hidden by default */
+    
+   }
+   
+   /* Modal Content */
+   .modal-content4 {
+     display: none;
+   }
+   
+   /* The Close Button */
+   .close4 {
+    display: none;
+   }
+   
+   .close4:hover,
+   .close4:focus {
+   display: none;
+   }
+   
+   
+   .nabo{
+   z-index: 30;
+     width: 50px;
+   }
+   
+   .kort{
+    height: 100%;
+    width: 100%;
+    display: block;
+     
+     }
+   
+   
+   
+     
+   
+   
+   }
+   /*---- desktop view "forside" end ---*/

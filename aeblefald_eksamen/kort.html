@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Dette er et kort over Æblefald forhandlere, scroll ned og få et overblik over, hvor du finder Æblefald cider." >
+    <meta name="description" content="Aarhus, Cider, Æbler, Forhandlere, Restaurant.">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <title>Forhandlere i Aarhus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fjalla+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fjalla+One&family=Permanent+Marker&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> <link rel="stylesheet" href="css/forside.css">
+    <link rel="index" href="index.html">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+
+</head>
+
+<body>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+#map {
+position: fixed;
+width: 70%;
+
+}
+#features {
+width: 450px;
+margin-left: 70%;
+font-family: sans-serif;
+overflow-y: scroll;
+background-color:none;
+}
+section {
+padding: 25px 50px;
+line-height: 40px;
+border-bottom: 2px solid white;
+opacity: 0.25;
+font-size: 15px;
+background-color: #d7cec1;
+z-index: -1;
+height: 800px;
+
+}
+section.active {
+opacity: 1;
+}
+section:last-child {
+border-bottom: none;
+margin-bottom: 450px;
+}
+
+.knap {
+  margin-left: 1000px;
+  background-color: #d7cec1;
+ padding: 20px;
+ 
+}
+
+.tilbageknap {
+font-family: marker felt;
+background-color: #d7cec1;
+margin-left: 270px;
+}
+
+.linkknap{
+  text-decoration: none;
+  color: black;
+}
+
+.pil_kort{
+  width: 20%;
+  margin-top: -35px;
+  margin-left: 270px;
+  transform: rotate(-20deg);
+}
+
+.billede {
+     margin-left: -230px;
+     width: 800px;
+     
+     
+         }
+     
+         .billede2 {
+             margin-left: -40px;
+            margin-top: 100px;
+             width: 400px;
+            
+                 }
+     
+                 .billede4 {
+                     margin-left: -40px;
+                  margin-top: 100px;
+                     width: 450px;
+                 }        
+     
+     
+                 .bardok {
+     font-size: 40px; 
+     margin-top: 150px;
+     
+     text-align: center;
+     
+                 }
+     
+     .tekst7 {
+      font-family: 'Shadows Into Light Two', cursive;
+     margin-top: -100px;
+     text-align: center;
+     font-size: 25px;
+     
+     
+     }
+            .tekst8 {
+             margin-top: 10px;
+             text-align: center;
+             font-size: 25px;
+             font-family: 'Shadows Into Light Two', cursive;
+            }    
+     
+     
+     .tekst6{
+     margin-top: 150px;
+     margin-left: 30px;
+     font-size: 30px;
+     font-family: 'Shadows Into Light Two', cursive;
+     }
+   
+
+
+
+</style>
+
+<a class="linkknap" href="forside.html"><form class="knap"> <p class="tilbageknap">Tilbage</p> </form></a>
+
+<div id="map"></div>
+<div id="features">
+<section id="aarhus" class="active">
+<h3 class="tekst6">Forhandlere i Aarhus</h3>
+<p class="tekst8">
+    
+Få et overblik over steder hvor Æblefalds cider forhandles. <br><br> SCROLL NED 
+</p>
+<img class="pil_kort" src="img/pilhoejre.svg" alt="pil"> 
+</section>
+
+
+
+<section id="bambi">
+
+<div class="billede_">
+<img src="img/bambi_img.png" alt="billede" class="billede">
+</div>
+<p class="tekst7">
+BAMBI <br> 
+BANEGÅRDSPLADSEN 4 <br>
+8000 AARHUS 
+</p>
+
+</section>
+<section id="nabokiosk">
+
+<img src="img/nabo_img.png" alt="billede" class="billede2">
+
+<p class="tekst8">
+NABO KIOSK <br> 
+INGERSLEVS PLADS 1A <br> 
+8000 AARHUS
+</p>
+
+</p>
+</section>
+<section id="bardok">
+<h3 class="bardok">BARDOK</h3>
+<p class="tekst8">
+BARDOK <br> 
+    ÅBOULEVARDEN 51 <br> 
+    8000 AARHUS 
+</section>
+
+
+
+<section id="moef">
+   
+    
+    <img src="img/mof_img.png" alt="billede" class="billede4">
+    <p class="tekst8">
+  MØF <br> 
+  VESTERPORT 10 <br> 
+  8000 AARHUS  
+    </p>
+    
+    </section>
+
+
+
+</section>
+</div>
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1Ijoic29maWVhbWFsaWVyIiwiYSI6ImNrb2w1czVpNzBjcnEycHFua3c4azlyb2gifQ.xTvIsKAu6xCnDYa-0Q_d2A';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/sofieamalier/ckol6yi6517b118qpgv9z2oqi',
+center: [10.202240385305831,56.14663094206144],
+zoom: 14,
+bearing: 27,
+pitch: 45
+});
+ 
+var chapters = {
+'aarhus': {
+bearing: 27,
+center: [10.19996318498807,56.14499856599704],
+zoom: 10,
+pitch: 45
+},
+'bambi': {
+duration: 6000,
+center: [10.205469880423538, 56.15145887529672],
+bearing: 150,
+zoom: 17,
+pitch: 0
+},
+'nabokiosk': {
+duration: 6000,
+bearing: 90,
+center: [10.199920269644123, 56.14502845078582],
+zoom: 17,
+pitch: 0
+},
+'bardok': {
+bearing: 150,
+center: [10.204724069644552,56.15617758423234],
+zoom: 19
+},
+
+
+'moef': {
+duration: 6000,
+center: [10.199939242328028,56.15885728472532],
+bearing: 150,
+zoom: 17,
+pitch: 0
+},
+
+
+};
+ 
+// On every scroll event, check which element is on screen
+window.onscroll = function () {
+var chapterNames = Object.keys(chapters);
+for (var i = 0; i < chapterNames.length; i++) {
+var chapterName = chapterNames[i];
+if (isElementOnScreen(chapterName)) {
+setActiveChapter(chapterName);
+break;
+}
+}
+};
+ 
+var activeChapterName = 'aarhus';
+function setActiveChapter(chapterName) {
+if (chapterName === activeChapterName) return;
+ 
+map.flyTo(chapters[chapterName]);
+ 
+document.getElementById(chapterName).setAttribute('class', 'active');
+document.getElementById(activeChapterName).setAttribute('class', '');
+ 
+activeChapterName = chapterName;
+}
+ 
+function isElementOnScreen(id) {
+var element = document.getElementById(id);
+var bounds = element.getBoundingClientRect();
+return bounds.top < window.innerHeight && bounds.bottom > 0;
+}
+</script>
+
+</body>
+</html>
